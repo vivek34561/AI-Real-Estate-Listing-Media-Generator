@@ -1,0 +1,54 @@
+# Core Backend
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-multipart==0.0.6
+
+# Agent Orchestration
+langgraph==0.0.20
+langchain==0.1.0
+langchain-core==0.1.10
+
+# Image Processing
+Pillow==10.2.0
+opencv-python==4.9.0.80
+numpy==1.26.3
+
+# AI/ML
+torch==2.1.2
+torchvision==0.16.2
+diffusers==0.25.0
+transformers==4.36.2
+accelerate==0.25.0
+safetensors==0.4.1
+
+# CLIP for quality checks
+clip-by-openai==1.0
+
+# Database
+sqlalchemy==2.0.25
+alembic==1.13.1
+
+# Task Queue (for async GPU jobs)
+celery==5.3.4
+redis==5.0.1
+
+# Utilities
+python-dotenv==1.0.0
+httpx==0.26.0
+aiofiles==23.2.1
+
+# Monitoring & Logging
+structlog==24.1.0
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Development
+black==23.12.1
+ruff==0.1.11
+mypy==1.8.0
